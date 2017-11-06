@@ -30,7 +30,7 @@ public class TestSuite
 	@BeforeTest
 	public void Setup() throws Exception
 	{
-                System.setProperty("webdriver.chrome.driver","/home/test/Downloads/chromedriver");
+                System.setProperty("webdriver.chrome.driver","/home/sysadmin/Downloads/chromedriver");
 		//System.setProperty("webdriver.chrome.logfile", "/home/sysadmin/Downloads/chromedriver_log.txt");
 		//System.setProperty("webdriver.chrome.verboseLogging", "true");
 		driver = new ChromeDriver();
